@@ -2,9 +2,31 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "00_core.ipynb"}
+index = {"say_hello": "00_core.ipynb",
+         "traindata_url": "create_model_01.ipynb",
+         "testdata_url": "create_model_01.ipynb",
+         "loan_train": "create_model_01.ipynb",
+         "loan_test": "create_model_01.ipynb",
+         "loan_train_columns": "create_model_01.ipynb",
+         "loan_train.Loan_Status": "create_model_01.ipynb",
+         "loan_train.Gender": "create_model_01.ipynb",
+         "loan_test.Gender": "create_model_01.ipynb",
+         "loan_train.Married": "create_model_01.ipynb",
+         "loan_test.Married": "create_model_01.ipynb",
+         "loan_train.Self_Employed": "create_model_01.ipynb",
+         "loan_test.Self_Employed": "create_model_01.ipynb",
+         "feature_col": "create_model_01.ipynb",
+         "le": "create_model_01.ipynb",
+         "logistic_model": "create_model_01.ipynb",
+         "train_features": "create_model_01.ipynb",
+         "x_train": "create_model_01.ipynb",
+         "y_train": "create_model_01.ipynb",
+         "x_test": "create_model_01.ipynb",
+         "predicted": "create_model_01.ipynb",
+         "filename": "create_model_01.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "mymodel01.py"]
 
 doc_url = "https://erwangranger.github.io/nbdevtest01/"
 
